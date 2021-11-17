@@ -1,2 +1,2 @@
 # EasyIoT
-Follow this tutorial for how to install and use.
+Follow [the tutorial](./tutorial.md) for how to install and use.
