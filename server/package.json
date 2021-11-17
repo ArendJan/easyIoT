@@ -1,0 +1,38 @@
+{
+  "name": "easyiotserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "autoload": "npx nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "npx semistandard",
+    "fix": "npx semistandard --fix"
+  },
+  "author": "Arend-Jan van Hilten & others",
+  "email": "info@arend-jan.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "connect-history-api-fallback": "^1.6.0",
+    "connect-pg-simple": "^7.0.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "express-session": "^1.17.2",
+    "flat": "^5.0.2",
+    "http-errors": "^1.8.0",
+    "kernel-smooth": "^0.2.3",
+    "memorystore": "^1.6.6",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1",
+    "simplify-js": "^1.2.4",
+    "web-push": "^3.4.5"
+  },
+  "devDependencies": {
+    "semistandard": "^16.0.1"
+  }
+}
