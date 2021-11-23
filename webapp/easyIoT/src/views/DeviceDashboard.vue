@@ -419,6 +419,9 @@ export default {
     },
     leftItems() {
       this.renderItems();
+    },
+    rightItems() {
+      this.renderItems();
     }
   },
   methods: {
