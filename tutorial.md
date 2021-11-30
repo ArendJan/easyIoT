@@ -226,8 +226,7 @@ To change the server and password of your device, take a look in ```src/main.cpp
 You don't have to set your wifi settings, because the ESP32 will start an access point with a website to enter your network details. 
 
 ### Sensors
-The sensors and sensor readings are done in a kind of framework. 
-// TODO::::::::::::::::::::::::::::::::::::::::: add link to report
+The sensors and sensor readings are done in a kind of framework as written in [the report](./report.pdf).
 To add a new sensor, you have to create the ```include/<sensor>.hpp``` and ```src/<sensor>.cpp``` files.
 
 Copy the following header example to your header file and change ```<sensor>``` to your sensor name or something unique.
